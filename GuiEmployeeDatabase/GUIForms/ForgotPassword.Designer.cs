@@ -44,7 +44,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(90, 520);
+            this.button1.Location = new System.Drawing.Point(91, 520);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(510, 50);
             this.button1.TabIndex = 0;
@@ -97,8 +97,9 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(410, 67);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Enter E-Mail address and submit to get Password reset instructions in an E-Mail. " +
-    "Hit Clear to retype E-Mail Address.";
+            this.label2.Text = "Enter E-Mail address and submit to get Password in an E-Mail. Hit Clear to retype" +
+    " E-Mail Address.";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label5
             // 
@@ -140,6 +141,7 @@
             this.button2.TabIndex = 19;
             this.button2.Text = "Submit";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // ForgotPassword
             // 

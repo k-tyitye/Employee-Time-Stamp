@@ -96,6 +96,7 @@
             this.label2.Size = new System.Drawing.Size(125, 37);
             this.label2.TabIndex = 14;
             this.label2.Text = "XX:XX:XX";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // DisplayTimeStamp
             // 

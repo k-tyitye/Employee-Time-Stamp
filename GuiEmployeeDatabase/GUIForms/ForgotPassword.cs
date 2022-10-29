@@ -28,5 +28,16 @@ namespace GuiEmployeeDatabase
         {
             textBox1.Clear();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            MessageBox.Show("An email with your password will be sent to you.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

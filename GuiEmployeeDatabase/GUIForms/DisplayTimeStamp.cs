@@ -19,12 +19,17 @@ namespace GuiEmployeeDatabase
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            label2.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

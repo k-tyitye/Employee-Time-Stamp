@@ -28,5 +28,11 @@ namespace GuiEmployeeDatabase
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            MessageBox.Show("An email with your username will be sent to you.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
